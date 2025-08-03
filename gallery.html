@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery – Boma National Park</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Boma National Park</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a href="activities.html">Things to Do</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="visit.html">Visit Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Magazine-Style Gallery -->
+  <main class="gallery-magazine">
+    <img src="best2.jpeg" alt="Gallery Image 1">
+    <img src="nnnn2.jpeg" alt="Gallery Image 2">
+    <img src="now.jpeg" alt="Gallery Image 3">
+    <img src="images11.jpeg" alt="Gallery Image 4">
+    <img src="images4.jpeg" alt="Gallery Image 5">
+    <img src="download5.jpeg" alt="Gallery Image 6">
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Boma National Park. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Mobile Nav Script -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
+

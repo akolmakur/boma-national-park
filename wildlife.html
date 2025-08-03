@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife – Boma National Park</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Boma National Park</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="wildlife.html" class="active">Wildlife</a>
+        <a href="activities.html">Things to Do</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html">Visit Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="wildlife-hero">
+    <img src="images (11).jpeg" alt="Wildlife at Boma National Park">
+    <h1>Wildlife You’ll Encounter</h1>
+  </section>
+
+  <!-- Content -->
+  <main class="content">
+    <p>Boma National Park is home to one of the largest wildlife migrations on Earth, with an incredible diversity of species:</p>
+
+    <div class="wildlife-grid">
+      <div>
+        <img src="images (13).jpeg" alt="lion">
+        <h3>lions</h3>
+        <p>Famous for their massive seasonal migration across the park.</p>
+      </div>
+      <div>
+        <img src="images (15).jpeg" alt="Zebra">
+        <h3>Elephants</h3>
+        <p>Gentle giants roaming freely through savannah and forest.</p>
+      </div>
+      <div>
+        <img src="images (16).jpeg" alt="Giraffes">
+        <h3>Giraffes</h3>
+        <p>Towering herbivores feeding on acacia trees.</p>
+      </div>
+      <div>
+        <img src="images (8).jpeg" alt="Lions">
+        <h3>Lions</h3>
+        <p>Majestic predators of the African wilderness.</p>
+      </div>
+      <div>
+        <img src="images (3).jpeg" alt="elephant">
+        <h3>elephants</h3>
+        <p>Over 400 elephants are avialable here.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Boma National Park. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Mobile Nav Script -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

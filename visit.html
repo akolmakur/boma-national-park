@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Us – Boma National Park</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Boma National Park</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a href="activities.html">Things to Do</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html" class="active">Visit Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Visit Us Banner -->
+  <section class="visit-hero">
+    <img src="images/visit-banner.jpg" alt="Visit Boma National Park">
+    <h1>Plan Your Adventure</h1>
+  </section>
+
+  <!-- Visit Us Content -->
+  <main class="content">
+    <p><strong>Location:</strong> Eastern South Sudan, near the Ethiopian border</p>
+    <p><strong>Best Time to Visit:</strong> December to April (dry season)</p>
+    <p><strong>Park Hours:</strong> 6:00 AM – 6:00 PM daily</p>
+
+    <h2>Park Entry Fees</h2>
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>Fee (USD)</th>
+      </tr>
+      <tr>
+        <td>Citizens</td>
+        <td>$5</td>
+      </tr>
+      <tr>
+        <td>Foreign Visitors</td>
+        <td>$25</td>
+      </tr>
+      <tr>
+        <td>Students</td>
+        <td>$2</td>
+      </tr>
+      <tr>
+        <td>Children Under 5</td>
+        <td>Free</td>
+      </tr>
+    </table>
+
+    <h2>Travel Tips</h2>
+    <ul>
+      <li>Hire a local guide for the best experience.</li>
+      <li>Wear neutral colors and carry plenty of water.</li>
+      <li>Respect wildlife and avoid feeding animals.</li>
+    </ul>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Boma National Park. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Mobile Nav Script -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

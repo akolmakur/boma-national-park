@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Things to Do – Boma National Park</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Boma National Park</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a href="activities.html" class="active">Things to Do</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html">Visit Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="activities-hero">
+    <img src="download (2).jpeg" alt="Activities at Boma National Park">
+    <h1>Things to Do at Boma</h1>
+  </section>
+
+  <!-- Activities Section -->
+  <main class="content">
+    <p>Explore Boma National Park through a variety of activities designed to bring you closer to nature and culture:</p>
+
+    <div class="activities-grid">
+      <div>
+        <img src="images (14).jpeg" alt="Wildlife Safari">
+        <h3>Wildlife Safari</h3>
+        <p>Guided vehicle tours through vast savannas to witness incredible wildlife migrations.</p>
+      </div>
+      <div>
+        <img src="images (6).jpeg" alt="Walking Trails">
+        <h3>Walking Trails</h3>
+        <p>Experience the park on foot with trained rangers and immerse yourself in its natural beauty.</p>
+      </div>
+      <div>
+        <img src="images (12).jpeg" alt="Animal watching">
+        <h3>Bird Watching</h3>
+        <p>Observe hundreds of animal .</p>
+      </div>
+      <div>
+        <img src="download (5).jpeg" alt="Photography">
+        <h3>Photography</h3>
+        <p>Capture stunning landscapes and unique wildlife moments.</p>
+      </div>
+      <div>
+        <img src="images (7).jpeg" alt="Camping">
+        <h3>Camping</h3>
+        <p>Sleep under the stars at designated campsites for an authentic wilderness experience.</p>
+      </div>
+      <div>
+        <img src="" alt="Cultural Tours">
+        <h3>Cultural Tours</h3>
+        <p>Meet local tribes and learn about their rich traditions and lifestyles.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Boma National Park. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Mobile Nav Script -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
+ 

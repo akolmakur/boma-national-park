@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us – Boma National Park</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header (same navigation as homepage) -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Boma National Park</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a href="activities.html">Things to Do</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html">Visit Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner Image -->
+  <section class="about-hero">
+    <img src="images (7).jpeg" alt="Boma National Park Aerial View">
+    <h1>About Boma National Park</h1>
+  </section>
+
+  <!-- Content Section -->
+  <main class="content">
+    <p>
+      Located in the eastern region of South Sudan near the Ethiopian border, 
+      Boma National Park spans over 22,800 square kilometers, making it one of the largest protected areas in Africa.
+      Established in 1977, the park plays a vital role in conserving wildlife and ecosystems unique to the region.
+    </p>
+
+    <!-- Inline Images -->
+    <div class="about-images">
+      <img src="images (15).jpeg" alt="Aerial view of Boma National Park">
+      <img src="images (7).jpeg" alt="Local community near Boma">
+    </div>
+
+    <h2>Our Mission</h2>
+    <p>To conserve and protect the rich biodiversity of Boma National Park while promoting responsible tourism, environmental education, and community engagement for future generations.</p>
+
+    <h2>Our Vision</h2>
+    <p>A thriving ecosystem where wildlife and local communities coexist in harmony, and Boma National Park becomes a global destination for eco-tourism and conservation.</p>
+
+    <h2>Our Core Values</h2>
+    <ul>
+      <li><strong>Conservation First:</strong> Protecting wildlife, ecosystems, and natural resources.</li>
+      <li><strong>Community Involvement:</strong> Working hand in hand with local communities.</li>
+      <li><strong>Education & Awareness:</strong> Inspiring visitors to value nature.</li>
+      <li><strong>Sustainability:</strong> Committed to eco-friendly practices.</li>
+      <li><strong>Adventure with Purpose:</strong> Creating experiences that support conservation and growth.</li>
+    </ul>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Boma National Park. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Mobile Navigation Script -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
+
